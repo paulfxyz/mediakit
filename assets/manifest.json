@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "kitVersion": "1.0.0",
+  "kitVersion": "1.0.1",
   "publicationStatus": "public",
   "sourceImageCount": 1,
   "maximumPortraitDimension": 512,
@@ -293,8 +293,8 @@
       "format": "png",
       "width": 1600,
       "height": 600,
-      "bytes": 150218,
-      "sha256": "1f4283d6d659d88d65bdfcfd6ca3d19b4c65905350b94ff549b8abc2534d1ff3",
+      "bytes": 150053,
+      "sha256": "f7ecd7425b9c78228c2664c9391ae98e19ff42a2bd095faeef424056abc1f391",
       "license": "Paul Fleury Media Permission 1.0"
     },
     {
@@ -303,8 +303,8 @@
       "format": "webp",
       "width": 1600,
       "height": 600,
-      "bytes": 47240,
-      "sha256": "3a34a1e053ae1074ee6835ac69c80ea04430cb05ff87ade5f5ba3b0aea06c346",
+      "bytes": 47232,
+      "sha256": "665e97c32233ed62f14ab8216e4977583c44c5783d5895673cbf3d8c6d542417",
       "license": "Paul Fleury Media Permission 1.0"
     },
     {

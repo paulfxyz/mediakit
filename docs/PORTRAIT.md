@@ -17,6 +17,21 @@ This is the only photograph of Paul Fleury authorised by him for public reuse. E
 
 JPEG is convenient for articles; PNG and WebP support the transparent circular versions. These 16 files are intentionally modest-resolution exports, not print-resolution masters.
 
+## Choose the smallest appropriate file
+
+- **A small byline:** Start with the 128-pixel square.
+- **An author card or compact profile:** The 256-pixel square is the general-purpose option.
+- **A larger editorial placement:** Use the 512-pixel square or the 400 × 500 crop, without enlarging the supplied file.
+- **A round layout:** Use one of the circular PNG or WebP files; these already contain the intended transparent mask.
+
+The purpose of the format choices is compatibility, not a ladder toward a more detailed face. If a publication's layout needs a much larger portrait, change the layout or use a text-led graphic rather than filling in detail that was deliberately not supplied.
+
+## Display and attribution
+
+Use a neutral description of the image and preserve the original black-and-white appearance. Do not imply that the background identifies a particular city, country, event, or date unless that information has separately been confirmed.
+
+The recommended supply credit is `Paul Fleury / supplied portrait`. It identifies the source of the provided asset rather than naming the photographer.
+
 ## Permission
 
 Reuse is governed by the [Paul Fleury Media Permission](../LICENSE), not a blanket open-source license. It permits attributed editorial and biographical uses under stated conditions, while preserving legal exceptions and editorial independence.
@@ -28,6 +43,24 @@ Reuse is governed by the [Paul Fleury Media Permission](../LICENSE), not a blank
 - **Credit the supply:** Use `Paul Fleury / supplied portrait`, with a link to the kit or paulfleury.com when practical.
 
 The lower resolution is a publication preference, not a guarantee against recognition, copying, scraping, or misuse. No license or pixel cap can make a public file confidential.
+
+## Common questions
+
+### Are these different photographs?
+
+No. The files are size, format, mask, or crop variations of the same supplied portrait, and they should not be presented as separate shoots or different moments in Paul's life.
+
+### Does another image online become acceptable because this one is small?
+
+No. The choice of a modest-resolution portrait is intentional, and another avatar or photograph found elsewhere is not authorised by this kit.
+
+### Can a publication use its own house style?
+
+Ordinary layout choices can be made within the media permission, but they do not create permission to alter the likeness or invent another image. If a house style requires colourisation, AI enhancement, a synthetic background extension, or a different photograph, ask first rather than treating the effect as a routine format conversion.
+
+### What if a platform adds automatic enhancement?
+
+Where the setting is under your control, use the supplied file without enhancement or upscaling. If a publishing workflow cannot preserve that boundary, use a non-portrait layout or discuss an alternative before publication.
 
 ## What is deliberately absent
 

@@ -1,6 +1,6 @@
 # A note on privacy and public presence
 
-This is a personal statement by Paul Fleury, dated 12 October 2026. It shares only the context I choose to make public.
+This is a personal statement by Paul Fleury, dated 12 October 2026. The broader account of my life, the places I have lived, and my work is in [Life and work](LIFE-AND-WORK.md); this note is deliberately brief.
 
 ## Why I keep a low profile
 

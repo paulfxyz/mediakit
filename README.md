@@ -28,6 +28,8 @@
 
 [Website](https://paulfleury.com) · [LinkedIn / contact](https://www.linkedin.com/in/paulfxyz/) · [Weekathon](https://ph.paulfleury.com) · [Download the media pack](https://github.com/paulfxyz/mediakit/releases/latest)
 
+For a short, shareable address, use [paulf.xyz/media](https://paulf.xyz/media). The repository is the detailed reference; the short link is the convenient way to pass it on.
+
 ## Quick start
 
 - **Writing about me?** Start with the [copy-ready biographies](docs/BIOGRAPHIES.md) and [life and work](docs/LIFE-AND-WORK.md).
@@ -40,7 +42,11 @@
 
 I am a French internet entrepreneur based in Lisbon, with Openline as my main business and work spanning connectivity, cybersecurity, AI, and independent products ([professional profile](https://www.linkedin.com/in/paulfxyz/)). My public portfolio combines ventures, open-source tools, and quieter experiments ([personal website](https://paulfleury.com)).
 
+Over the past 15 years, I have lived in at least a dozen countries, with a minimum of six months in each of the places listed in my [life-and-work account](docs/LIFE-AND-WORK.md). I genuinely enjoyed living in all of them; each city, region, and country was special and enriching in its own way. The list is deliberately not a timeline, and I keep exact dates and lengths of stay out of the public account.
+
 I want the work to be visible without making my entire private life public. A small public footprint is a boundary, not a lack of interest in people or collaboration.
+
+The biographies offer several levels of detail, from a one-line introduction to a fuller personal and professional profile. Choose the version that fits the story rather than treating every available detail as something that must be included.
 
 ## One portrait, deliberately modest
 
@@ -69,6 +75,8 @@ Browse [all portrait files](assets/portrait/) or use the [format-by-format downl
 The [Weekathon](https://ph.paulfleury.com) brings together seven AI-assisted products as a public learning and launch experiment, not a claim that seven complete products were built from scratch in seven days. Its argument is about useful tools, ownership, costs, testing, and what happens after shipping ([campaign](https://ph.paulfleury.com)).
 
 The [project index](docs/PROJECTS.md) separates my main business, services and advisory work, public-good work, independent tools, and earlier ventures. Product availability, release status, and commercial terms belong to the individual projects, not to this media kit.
+
+What connects these projects is a practical interest in useful tools and the work that comes after an idea. An experiment can be worthwhile without becoming a company, and a launch is a starting point for testing and maintenance rather than proof that everything is finished.
 
 ## Personal context, without speculation
 

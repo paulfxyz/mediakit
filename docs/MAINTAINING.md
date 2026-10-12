@@ -13,6 +13,18 @@ The checks verify local links, asset hashes and dimensions, image metadata, the 
 
 Automated checks reduce accidental leakage; they do not replace review of everything being committed. Always inspect `git diff --cached` and the release archive before publishing.
 
+## Updating the writing
+
+Start by reading the current public version and pulling any owner edits before making changes. Preserve deliberate wording, repository metadata, and the distinction between a personal account and a claim independently supported by another source.
+
+- **Personal history:** Use facts Paul has supplied or confirmed; do not fill gaps in dates, countries, cities, or lengths of stay.
+- **Country list:** Keep it non-chronological and preserve the six-month minimum without inventing a more detailed itinerary.
+- **Sensitive context:** Keep the personal statement concise and do not add diagnoses or more detailed health material by inference.
+- **Project descriptions:** Check current first-party material and preserve the difference between a plan, experiment, released tool, and commercial service.
+- **Cross-references:** When one account changes, check the README, biographies, media guide, and relevant project documentation for contradictions.
+
+More words are not automatically more useful. Keep the README a clear entry point, the short biographies genuinely short, and the detailed account in the document intended for it.
+
 ## Rebuild public assets
 
 ```sh
@@ -44,10 +56,11 @@ Review the canonical square, circle, and 4:5 crop visually before a release. Do 
 - **Publication gate:** Publish only explicitly approved personal copy and portraits with confirmed reuse rights. Keep unapproved replacements outside the public repository and its history until they are cleared for release.
 - **Facts:** Recheck LinkedIn, the public portfolio, the campaign, and affected project pages. Do not promote launch plans or draft metrics to verified facts.
 - **Privacy:** Review all staged paths, metadata, image dimensions, archives, and commits. Never commit credentials, private communications, internal documents, or the original attachment.
-- **Version:** Update `package.json`, the README release label, the artwork's release label, and `CHANGELOG.md` together; refresh the lockfile.
+- **Version:** Keep `package.json`, `data/profile.json`, the lockfile, and `CHANGELOG.md` in sync. Rebuild the artwork labels; the README's release badge reads the latest GitHub release.
 - **Assets:** Run `npm run build`, `npm test`, and `npm run pack`.
 - **Package:** Inspect the ZIP listing; it must contain public files only. Publish the ZIP and its SHA-256 checksum together.
-- **Website:** Keep the main site's media-kit link pointed at the canonical repository.
+- **Website:** Keep the desktop menu, mobile drawer, and Connect entry pointed at the approved short link, `https://paulf.xyz/media`.
+- **Owner metadata:** Preserve Paul's manual edits to the repository title, About description, homepage, and topics unless he requests a change.
 - **Publication:** Push the approved release, check CI, and verify the public image and document links.
 
 ## Scope of the license
@@ -55,3 +68,11 @@ Review the canonical square, circle, and 4:5 crop visually before a release. Do 
 Original JavaScript in `scripts/` and the workflow in `.github/workflows/` are MIT-licensed. The assets and biographical copy remain under the root `LICENSE`, even though software generated some of their formats.
 
 The project is not published to npm. `private: true` is intentional; `npm run pack` creates a media ZIP, not an npm package release.
+
+## Public entry points
+
+The shareable address is [paulf.xyz/media](https://paulf.xyz/media), with [paulfleury.com/pr](https://paulfleury.com/pr), [paulfleury.com/media](https://paulfleury.com/media), and [paulfleury.com/mediakit](https://paulfleury.com/mediakit) as additional entry points. Their destination is the public repository, not a particular release ZIP.
+
+Treat redirect configuration and social-preview metadata as separate things to verify. A link can work in a browser while a preview crawler behaves differently, so check the redirect chain and the destination's title, description, and image after changing an entry point.
+
+Keep hosting credentials, server configuration backups, and internal deployment notes outside this public repository. A reader should be able to rebuild the approved media assets without access to any of those materials.
