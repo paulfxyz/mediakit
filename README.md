@@ -1,4 +1,4 @@
-# Paul Fleury · mediakit
+# Paul Fleury · "Media Kit"
 
 <p align="center">
   <img src="assets/brand/mediakit-mark-dark.svg" width="88" height="88" alt="PF media-kit monogram">
