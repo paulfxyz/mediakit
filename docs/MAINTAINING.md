@@ -9,7 +9,7 @@ npm ci
 npm test
 ```
 
-The checks verify local links, asset hashes and dimensions, image metadata, the complete portrait format matrix, and the absence of common private-file types and forbidden source-image names. They also verify that the package stays private and the machine-readable professional profile has no health fields.
+The checks verify local links, asset hashes and dimensions, image metadata, the complete portrait format matrix, and the absence of common private-file types and forbidden source-image names. They also verify version consistency, contact-directory links across the README and media guide, the npm publication block, and the absence of health fields in the machine-readable professional profile.
 
 Automated checks reduce accidental leakage; they do not replace review of everything being committed. Always inspect `git diff --cached` and the release archive before publishing.
 
@@ -22,6 +22,7 @@ Start by reading the current public version and pulling any owner edits before m
 - **Sensitive context:** Keep the personal statement concise and do not add diagnoses or more detailed health material by inference.
 - **Project descriptions:** Check current first-party material and preserve the difference between a plan, experiment, released tool, and commercial service.
 - **Cross-references:** When one account changes, check the README, biographies, media guide, and relevant project documentation for contradictions.
+- **Contact directory:** Mirror the links actually listed in the website's Connect section in `data/profile.json`, the README, and the media guide. Do not infer an email from a public key or private context, or invent a preferred platform.
 
 More words are not automatically more useful. Keep the README a clear entry point, the short biographies genuinely short, and the detailed account in the document intended for it.
 
@@ -57,10 +58,10 @@ Review the canonical square, circle, and 4:5 crop visually before a release. Do 
 - **Facts:** Recheck LinkedIn, the public portfolio, the campaign, and affected project pages. Do not promote launch plans or draft metrics to verified facts.
 - **Privacy:** Review all staged paths, metadata, image dimensions, archives, and commits. Never commit credentials, private communications, internal documents, or the original attachment.
 - **Version:** Keep `package.json`, `data/profile.json`, the lockfile, and `CHANGELOG.md` in sync. Rebuild the artwork labels; the README's release badge reads the latest GitHub release.
-- **Assets:** Run `npm run build`, `npm test`, and `npm run pack`.
+- **Assets:** Run `npm run build`, `npm test`, and `npm run pack`. The graphics build checks card overflow, footer clearance, and portrait sizing; still inspect the artwork at its intended display size.
 - **Package:** Inspect the ZIP listing; it must contain public files only. Publish the ZIP and its SHA-256 checksum together.
-- **Website:** Keep the desktop menu, mobile drawer, and Connect entry pointed at the approved short link, `https://paulf.xyz/media`.
-- **Owner metadata:** Preserve Paul's manual edits to the repository title, About description, homepage, and topics unless he requests a change.
+- **Website:** Keep the desktop menu, mobile drawer, and Connect entry pointed at the approved short link, `https://paulf.xyz/media`. The Connect label is `Mediakit`; the navigation can retain its existing visual treatment.
+- **Owner metadata:** Preserve Paul's manual edits to the repository title, About description, homepage, and topics unless he requests a change. If About includes a kit version, synchronise that version with the release while retaining the rest of his wording.
 - **Publication:** Push the approved release, check CI, and verify the public image and document links.
 
 ## Scope of the license

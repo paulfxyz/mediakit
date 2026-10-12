@@ -1,16 +1,23 @@
 # Media and contact guide
 
-This kit is meant to make accurate coverage easier without requiring a larger personal footprint. Please start with the supplied material and ask when a proposed use falls outside it.
+This kit brings together ready-to-use biographies, a curated project index, and the approved portrait. The notes below help with attribution, interview requests, and accurate use of the personal background.
 
-## Contact
+## Official contact and profiles
 
-Use [Paul Fleury on LinkedIn](https://www.linkedin.com/in/paulfxyz/) for interviews, editorial questions, corrections, and permission requests. Include who you are, the publication or event, your topic, the deadline, and the format you have in mind.
+The official directory is the “let's work together” section of [paulfleury.com](https://paulfleury.com/#connect). It lists the following contact and profile links, without naming an exclusive or preferred platform.
+
+- **Product Hunt:** [@paulfxyz](https://www.producthunt.com/@paulfxyz)
+- **GitHub:** [paulfxyz](https://github.com/paulfxyz)
+- **LinkedIn:** [paulfxyz](https://www.linkedin.com/in/paulfxyz)
+- **X / Twitter:** [@paulfxyz](https://twitter.com/paulfxyz)
+- **Telegram:** [@paulfxyz](https://t.me/paulfxyz)
+- **Instagram:** [@paulfxyz](https://instagram.com/paulfxyz)
+
+For interviews, editorial questions, and permission requests, use an available direct-message route rather than a public issue or comment. Include who you are, the publication or event, your topic, the deadline, and the format you have in mind.
 
 Written questions are a useful starting point. Photography, video, live appearances, recording, and publication of private correspondence require a separate agreement; an available media kit is not agreement to participate.
 
-The most useful first message explains the angle rather than simply asking for “a chat”. A few focused questions, the intended audience, and whether you need a quotation, background information, or participation in a particular format make it easier to give an appropriate answer.
-
-Do not assume that a contact request also grants permission to record, publish correspondence, or use a portrait in advertising. Those are separate questions, and the public availability of this kit does not answer them automatically.
+The most useful first message explains the angle and intended audience, with a few focused questions. Please distinguish a request for a quotation, background information, or participation in an event; profile links do not guarantee messaging availability or a response time.
 
 ## Choosing the right material
 
@@ -35,12 +42,12 @@ The short address for sharing the kit is [paulf.xyz/media](https://paulf.xyz/med
 
 Paul's account names France, Belgium, the Netherlands, Germany, Mexico, the United States, the United Kingdom, Australia, Thailand, Spain, Italy, and Portugal as countries he has lived in over the past 15 years. Each listed country represents at least six months of living there; the list is not chronological, and exact dates or individual lengths of stay are not published.
 
-The point of this background is the experience of living in different places, all of which he describes as special and enriching. It is not a travel ranking, a complete itinerary, or a basis for inventing unmentioned cities and addresses.
+The point of this background is the experience of living in different places, all of which he describes as special and enriching. Preserve that perspective when shortening the account.
 
 - **Retain the minimum:** “At least six months in each listed country” is the available level of detail, not an invitation to estimate a more precise duration.
-- **Keep chronology open:** Do not arrange the list into an assumed sequence or connect particular countries to particular contracts.
-- **Avoid additional inferences:** The list does not establish citizenship, immigration or tax status, language fluency, or professional affiliations.
-- **Keep the account attributed:** This is Paul's own published personal background, not a claim of independent documentary verification.
+- **Keep chronology open:** Do not arrange the list into an assumed sequence.
+- **Avoid additional inferences:** Keep to the information actually given, without adding cities, dates, or professional ties to a place.
+- **Keep the account attributed:** This is Paul's own published personal background.
 
 ## Personal disclosure
 
@@ -48,13 +55,14 @@ The [personal statement](PERSONAL-STATEMENT.md) is Paul's chosen account of his 
 
 Do not infer unnamed conditions or claim access to medical records. Please do not make personal context the automatic headline of an otherwise professional story.
 
-The statement is intentionally short. More space in an article does not require more medical detail, and a preference for written or bounded participation should not be treated as a story about somebody's willingness to work.
+The statement is intentionally short. Use the context Paul has chosen to share without adding personal or medical detail.
 
-## Accurate coverage
+## Accuracy notes for editors
 
-- **Contracting:** Do not recast earlier external defence or security contracting as employment by, or official representation of, an institution.
-- **AI-assisted work:** Preserve the role of AI tools, collaborators, testing, and human responsibility. A polished project does not establish that Paul personally engineered every underlying component.
-- **Project maturity:** Separate a plan, prototype, launch campaign, public repository, commercial service, and verified release.
+- **Earlier career:** Paul's defence and security work was done as an external contractor. Describe it that way, not as employment by, or official representation of, an institution.
+- **Weekathon and AI-assisted work:** The Weekathon is a launch-and-learning campaign for seven AI-assisted projects. Keep the role of AI tools, collaborators, testing, and human responsibility visible; the campaign is not a claim that seven products were built from scratch in seven days.
+- **Projects and figures:** Distinguish a plan, prototype, launch campaign, public repository, commercial service, and verified release. Check each project's own materials for current status and numbers.
+- **Earlier ventures:** The ventures and exits follow Paul's published professional account. Deal terms are not published, and this kit is not an independent transaction audit.
 - **Private matters:** Do not upload found photographs, correspondence, personal addresses, or medical speculation to this repository.
 - **Editorial independence:** The media permission does not require positive coverage or article approval. Its boundaries govern reuse of the supplied materials, not lawful criticism.
 
@@ -62,11 +70,11 @@ The statement is intentionally short. More space in an article does not require 
 
 The supplied biographies can be adapted within the media permission, provided their meaning remains faithful. An adapted biography is not automatically a verbatim quotation from an interview.
 
-Keep the useful distinctions when translating: an external contractor is not an official representative, an experiment is not a verified product release, and a country of past residence is not necessarily a current base. If a phrase is ambiguous in the target language, ask rather than filling the gap with a more impressive claim.
+Preserve the distinctions in the accuracy notes above when adapting or translating the material. If a phrase is ambiguous in the target language, ask rather than filling the gap with a more impressive claim.
 
 ## Corrections
 
-For a factual correction, identify the specific passage and provide a public first-party reference where one is available. Broken links and technical problems can go through the repository's issue form; private or sensitive matters belong in a direct message on [LinkedIn](https://www.linkedin.com/in/paulfxyz/).
+For a factual correction, identify the specific passage and provide a public first-party reference where one is available. Broken links and technical problems can go through the repository's issue form; private or sensitive matters belong in a direct message through an [official contact route](#official-contact-and-profiles).
 
 Please do not attach private documents to a public issue to prove a point about the biography. A correction can be discussed without making the underlying personal material public.
 

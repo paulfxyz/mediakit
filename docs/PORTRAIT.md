@@ -24,7 +24,7 @@ JPEG is convenient for articles; PNG and WebP support the transparent circular v
 - **A larger editorial placement:** Use the 512-pixel square or the 400 × 500 crop, without enlarging the supplied file.
 - **A round layout:** Use one of the circular PNG or WebP files; these already contain the intended transparent mask.
 
-The purpose of the format choices is compatibility, not a ladder toward a more detailed face. If a publication's layout needs a much larger portrait, change the layout or use a text-led graphic rather than filling in detail that was deliberately not supplied.
+The format choices make the same portrait usable in different layouts. For a larger placement, use a text-led graphic or adjust the layout rather than upscaling or enhancing the portrait.
 
 ## Display and attribution
 
@@ -35,6 +35,8 @@ The recommended supply credit is `Paul Fleury / supplied portrait`. It identifie
 ## Permission
 
 Reuse is governed by the [Paul Fleury Media Permission](../LICENSE), not a blanket open-source license. It permits attributed editorial and biographical uses under stated conditions, while preserving legal exceptions and editorial independence.
+
+Paul has confirmed permission to make this supplied portrait available for reuse under those terms. The supply credit identifies the provider of the asset; it does not identify its photographer.
 
 - **Use this image:** Do not substitute a photograph or avatar found through an image search.
 - **Keep the resolution:** The longest edge of any portrait file is at most 512 pixels. Do not upscale, use facial-detail enhancement, or reconstruct missing detail.
@@ -64,6 +66,6 @@ Where the setting is under your control, use the supplied file without enhanceme
 
 ## What is deliberately absent
 
-There is no high-resolution original, no unpublished alternative image, no video, and no facial dataset in this repository. Portrait metadata is stripped during export, and the original is not needed to rebuild the public files.
+The repository contains only the approved portrait exports, not the original, alternative photographs, or video. Portrait metadata is stripped during export, and the original is not needed to rebuild the public files.
 
-For the personal account behind this boundary, see [the personal statement](PERSONAL-STATEMENT.md). If the supplied sizes do not fit an editorial layout, adapt the layout or use the [typographic graphics](BRAND.md) rather than inventing a more detailed face.
+For the personal account behind this choice, see [the personal statement](PERSONAL-STATEMENT.md). The [graphics guide](BRAND.md) provides alternatives for layouts that do not suit a small portrait.

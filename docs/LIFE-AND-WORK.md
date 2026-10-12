@@ -18,9 +18,9 @@ Lisbon is my current base ([professional profile](https://www.linkedin.com/in/pa
 
 ## From security work to independent building
 
-Earlier in my career, I spent more than a decade working on confidential defence and security contracts as an external contractor ([professional profile](https://www.linkedin.com/in/paulfxyz/)). That is not a claim to have been an employee, officer, or official spokesperson for the institutions involved.
+Earlier in my career, I spent more than a decade working on confidential defence and security contracts as an external contractor ([professional profile](https://www.linkedin.com/in/paulfxyz/)). My current public work centres on independent entrepreneurship, consulting, and practical software ([professional profile](https://www.linkedin.com/in/paulfxyz/)).
 
-My public professional profile also records businesses I created and sold, including Alphaclub, Openchan, and Smartdesk, and a later co-founder role and reported exit at Clean IP ([professional profile](https://www.linkedin.com/in/paulfxyz/)). Those are my own public career statements, not independently audited transaction records; this kit does not publish deal values or confidential counterparties.
+My public professional profile also records businesses I created and sold, including Alphaclub, Openchan, and Smartdesk, and a later co-founder role and reported exit at Clean IP ([professional profile](https://www.linkedin.com/in/paulfxyz/)). The account follows that published career history, without disclosing deal values or confidential counterparties.
 
 ## The work today
 
@@ -34,7 +34,7 @@ What interests me is the connection between an idea and something that is actual
 
 ## Building with AI, taking responsibility as a person
 
-The Weekathon presents AI-assisted products as things to try, inspect, improve, and learn from ([Weekathon](https://ph.paulfleury.com)). It is a launch experiment, not a claim that a single person independently hand-wrote every component, or that seven products were built from nothing in seven days ([Weekathon](https://ph.paulfleury.com)).
+The Weekathon presents AI-assisted products as things to try, inspect, improve, and learn from: a launch experiment in building with AI tools while staying responsible for the result ([Weekathon](https://ph.paulfleury.com)). The continuing work of testing and maintenance matters as much as the public launch.
 
 I use “Chief Hacking Officer” as a way to describe an organisational capability: finding useful problems, turning them into owned tools, and staying responsible for the result ([Weekathon](https://ph.paulfleury.com)). The point is not to replace every subscription with an unexamined AI bill, but to make deliberate choices about ordinary software, appropriate models, operating costs, security, and maintenance ([Weekathon](https://ph.paulfleury.com)).
 
@@ -44,7 +44,7 @@ I also want the claims around a project to stay proportionate to what exists. A 
 
 ## A public-good direction
 
-Enki is a separate public-good initiative concerned with decentralised, local-first AI and more practical control over the tools people depend on ([Enki](https://enki.ngo)). Its proposals and ambitions should not be confused with a claim that every part of its roadmap already exists.
+Enki is a separate public-good initiative concerned with decentralised, local-first AI and more practical control over the tools people depend on ([Enki](https://enki.ngo)). Its manifesto and proposals set out a direction, with [Enki's own materials](https://enki.ngo) as the reference for the work as it develops.
 
 That distinction matters to me more broadly. An experiment can have a clear direction without pretending that the work is finished.
 

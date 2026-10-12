@@ -14,13 +14,13 @@ Check the current document and the relevant project's own materials first. A med
 
 A useful report names the affected file, identifies the problem, and suggests a specific correction. For a broken asset, include its filename and the application or browser in which the problem occurred rather than uploading another person's photograph as an alternative.
 
-Do not submit alternative photographs, personal records, private correspondence, or medical speculation. Use [LinkedIn](https://www.linkedin.com/in/paulfxyz/) for a sensitive correction rather than a public issue.
+Do not submit alternative photographs, personal records, private correspondence, or medical speculation. Use an [official direct-contact route](docs/MEDIA-GUIDE.md#official-contact-and-profiles) for a sensitive correction rather than a public issue.
 
 ## Biography and identity changes
 
-The country history is Paul's own account and is deliberately not a chronology. Do not infer addresses, immigration or tax status, client locations, or a country-by-country sequence from it.
+The country history is Paul's own account and is deliberately not a chronology. Please do not add details it does not contain.
 
-Likewise, a technical repository is not evidence of a particular academic credential or proof that one person engineered every component. Corrections should make the record more accurate, not simply more impressive.
+Keep biographical changes grounded in public first-party material and the [editorial accuracy notes](docs/MEDIA-GUIDE.md#accuracy-notes-for-editors). Corrections should make the record more accurate, not simply more impressive.
 
 ## Technical changes
 

@@ -1,6 +1,6 @@
 # Project index
 
-This is a curated map of my work, not a claim that every item is a company, a finished product, or a currently available service. Follow each project's own website and repository for its status, documentation, and license.
+This is a curated map of my work: one main business, services and advisory work, a public-good initiative, and independent software. Each project's own website and repository is the reference for its current status, documentation, and license.
 
 ## How to read the portfolio
 
@@ -12,17 +12,17 @@ The [life-and-work account](LIFE-AND-WORK.md) provides the personal background, 
 
 ## Main business
 
-- **Openline:** My main business, where I serve as founder and CEO, focused on eSIM connectivity ([professional profile](https://www.linkedin.com/in/paulfxyz/), [Openline](https://openline.com)). This kit makes no claim about current subscriber numbers, funding, app-store releases, or universal coverage.
+- **Openline:** My main business, where I serve as founder and CEO ([professional profile](https://www.linkedin.com/in/paulfxyz/)). It offers travel eSIMs with digital setup and automatic network switching for travellers and digital nomads ([Openline](https://openline.com)).
 
 Openline belongs in a different category from a small personal utility. When describing it, use the company and its own materials as the reference for current product scope, availability, and commercial terms, rather than transferring claims from another project in this portfolio ([Openline](https://openline.com)).
 
-My role is presented here as company and product leadership, not as a claim that I personally built every technical component. The distinction leaves room for the specialist work and collaboration that a business requires.
+My role brings together company and product leadership, working with the specialist teams a connectivity business depends on ([professional profile](https://www.linkedin.com/in/paulfxyz/)). Product direction, operations, and collaboration are connected parts of that work.
 
 ## Services and advisory
 
 - **Megastack:** Cybersecurity and self-hosted infrastructure work, with a focus on maintaining control of the operating stack ([Megastack](https://megastack.sh), [professional profile](https://www.linkedin.com/in/paulfxyz/)).
-- **Calliope Agency:** Web and AI consultancy, including practical tools, workflows, and the “Chief Hacking Officer” approach ([Calliope](https://calliope.agency), [professional profile](https://www.linkedin.com/in/paulfxyz/)).
-- **Asymptote Ventures:** Venture-building and early-stage advisory work, with my public role listed as Managing General Partner ([Asymptote](https://asymptote.ventures), [professional profile](https://www.linkedin.com/in/paulfxyz/)). No investment performance or assets-under-management figure is asserted here.
+- **Calliope Agency:** Web and AI consultancy, including practical tools and workflows ([Calliope](https://calliope.agency), [professional profile](https://www.linkedin.com/in/paulfxyz/)).
+- **Asymptote Ventures:** Venture-building and early-stage advisory work, with my public role listed as Managing General Partner ([Asymptote](https://asymptote.ventures), [professional profile](https://www.linkedin.com/in/paulfxyz/)).
 
 These names should not be used interchangeably. A consulting engagement, an infrastructure deployment, and venture advisory are different activities, even when they involve the same person.
 
@@ -30,13 +30,13 @@ For a story about one of them, name that activity and its relevant organisation.
 
 ## Public-good work
 
-- **Enki:** A public-good initiative for decentralised, local-first AI, with a manifesto, proposed tools, and a broader research and standards direction ([Enki](https://enki.ngo)). Treat its ambitions as a roadmap, not as a declaration that every proposed component has shipped.
+- **Enki:** A public-good initiative for decentralised, local-first AI, with a manifesto, proposed tools, and a broader research and standards direction ([Enki](https://enki.ngo)). The [website](https://enki.ngo) and [repository](https://github.com/paulfxyz/enki) document its evolving scope.
 
 The public-good direction is important to how I think about tools, but it does not erase the difference between commercial and non-commercial work. Enki's own published materials are the reference for its proposals; its inclusion here does not turn every other project into an Enki component ([Enki](https://enki.ngo)).
 
 ## The Weekathon collection
 
-The Weekathon groups seven AI-assisted projects into a public launch and learning experiment ([campaign](https://ph.paulfleury.com)). It does not make their commercial models identical, or imply that their development took only one week ([campaign](https://ph.paulfleury.com)).
+The Weekathon groups seven AI-assisted projects into a public launch and learning experiment ([campaign](https://ph.paulfleury.com)). The collection brings together different problems, audiences, and commercial models.
 
 | Project | What it is | Public entry points |
 |---|---|---|
@@ -48,7 +48,7 @@ The Weekathon groups seven AI-assisted projects into a public launch and learnin
 | **Mercury** | A self-hosted multi-model research and debate engine; model agreement is not independent proof ([project description](https://github.com/paulfxyz/mercury)). | [Website](https://mercury.sh) · [MIT repository](https://github.com/paulfxyz/mercury) |
 | **Cup of News** | An AI-assisted news digest with a frozen MIT open-source core and a separate commercial product ([repository and product distinction](https://github.com/paulfxyz/cup-of-news)). | [Website](https://cupof.news) · [Reader](https://read.cupof.news) · [Open-source core](https://github.com/paulfxyz/cup-of-news) |
 
-Launch dates belong on the [live campaign](https://ph.paulfleury.com), not in a long-lived biography. A planned launch is not evidence of a completed launch.
+For campaign timing, consult the [live Weekathon page](https://ph.paulfleury.com). The project links above are the references for releases and availability.
 
 ### Different problems, not one interchangeable set of apps
 
@@ -71,7 +71,7 @@ Infrastructure work is useful precisely because it is less interested in a polis
 
 ## Earlier businesses
 
-My public professional profile records Alphaclub, Openchan, and Smartdesk as businesses I created and sold, and identifies a co-founder role and reported exit at Clean IP ([professional profile](https://www.linkedin.com/in/paulfxyz/)). These are owner-reported career facts; this kit does not claim independent transaction verification, disclose deal values, or present Clean IP as a currently controlled venture.
+My public professional profile records Alphaclub, Openchan, and Smartdesk as businesses I created and sold, and identifies a co-founder role and reported exit at Clean IP ([professional profile](https://www.linkedin.com/in/paulfxyz/)). They belong to the earlier-career account; deal values and confidential counterparties are not published.
 
 ## Keep the distinctions
 

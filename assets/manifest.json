@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "kitVersion": "1.0.1",
+  "kitVersion": "1.0.2",
   "publicationStatus": "public",
   "sourceImageCount": 1,
   "maximumPortraitDimension": 512,
@@ -203,8 +203,8 @@
       "format": "ico",
       "width": 256,
       "height": 256,
-      "bytes": 7331,
-      "sha256": "b452c9b6ceb0c35c10739d190a42d8b84119ee2787adcffba14e50a96ffff9c3",
+      "bytes": 7662,
+      "sha256": "8e52838c2c063ef1cceae6b181c7e52ea2bded9ac76e962bf1e740d7504eebcc",
       "license": "Paul Fleury Media Permission 1.0"
     },
     {
@@ -215,6 +215,16 @@
       "height": 128,
       "bytes": 1633,
       "sha256": "04f38408639fab32194340e68988d07eeb91ad3f377dfa078e6b0868bbdfde52",
+      "license": "Paul Fleury Media Permission 1.0"
+    },
+    {
+      "path": "assets/brand/mediakit-icon-16.png",
+      "category": "brand",
+      "format": "png",
+      "width": 16,
+      "height": 16,
+      "bytes": 315,
+      "sha256": "01f306e3f219d5303570fdd0926b3f63e61c14a9860490d44a32aad3c55da4ed",
       "license": "Paul Fleury Media Permission 1.0"
     },
     {
@@ -293,8 +303,8 @@
       "format": "png",
       "width": 1600,
       "height": 600,
-      "bytes": 150053,
-      "sha256": "f7ecd7425b9c78228c2664c9391ae98e19ff42a2bd095faeef424056abc1f391",
+      "bytes": 159001,
+      "sha256": "cf44359d8f4f5aa17297b1c185da5c64fcffaa018593af330c9e8fdc3ae123db",
       "license": "Paul Fleury Media Permission 1.0"
     },
     {
@@ -303,8 +313,8 @@
       "format": "webp",
       "width": 1600,
       "height": 600,
-      "bytes": 47232,
-      "sha256": "665e97c32233ed62f14ab8216e4977583c44c5783d5895673cbf3d8c6d542417",
+      "bytes": 52040,
+      "sha256": "cf633a54e53c41c859b32b04c3a990d9a8c414add5a614bf01e61d25b6ac3edf",
       "license": "Paul Fleury Media Permission 1.0"
     },
     {
@@ -313,8 +323,8 @@
       "format": "png",
       "width": 1600,
       "height": 1120,
-      "bytes": 140212,
-      "sha256": "eedf83495151aaa70b1e74be285310269b4f464a6ae7d85cae809c2a8424f766",
+      "bytes": 164179,
+      "sha256": "f76b17d7e3dacf31f34e5bef01722c91e706b4526831ddae9a1e3db959f6d7c3",
       "license": "Paul Fleury Media Permission 1.0"
     },
     {
@@ -323,8 +333,8 @@
       "format": "webp",
       "width": 1600,
       "height": 1120,
-      "bytes": 82144,
-      "sha256": "cbd98cfaeff8f7cc090bab40c07dd903580cf770511d7558c2f1324b420dfc27",
+      "bytes": 96478,
+      "sha256": "52a4693281b1d56771d7223464f772f144768deb55b67d33dac88d3c32893e50",
       "license": "Paul Fleury Media Permission 1.0"
     },
     {
@@ -333,8 +343,8 @@
       "format": "png",
       "width": 1200,
       "height": 630,
-      "bytes": 111373,
-      "sha256": "3eeca0ebb4cdf0fd565832f42c9dba926e46c5cb65eb9be9361532b289b16474",
+      "bytes": 117065,
+      "sha256": "680fe5d67182db91edf35a3fb9c15caf4c5f81f34cabf887424d82226fc74b01",
       "license": "Paul Fleury Media Permission 1.0"
     },
     {
@@ -343,8 +353,8 @@
       "format": "webp",
       "width": 1200,
       "height": 630,
-      "bytes": 32504,
-      "sha256": "4d8787cf7aef11e982d627df966638bc934da3aabfd91b22a9cecd23deeb2139",
+      "bytes": 35550,
+      "sha256": "bb0a5f0a55cf294193a12d6e9d3aa4faec49fc8ab58bd825938ff15aabe8214d",
       "license": "Paul Fleury Media Permission 1.0"
     }
   ]

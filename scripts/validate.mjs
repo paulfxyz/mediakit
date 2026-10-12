@@ -9,10 +9,13 @@ import sharp from "sharp";
 const root = fileURLToPath(new URL("../", import.meta.url));
 const read = (name) => fs.readFile(path.join(root, name), "utf8");
 const pkg = JSON.parse(await read("package.json"));
+const lock = JSON.parse(await read("package-lock.json"));
 const manifest = JSON.parse(await read("assets/manifest.json"));
 const profile = JSON.parse(await read("data/profile.json"));
 assert.equal(pkg.private, true, "Do not publish a personal media kit to npm.");
 assert.equal(pkg.license, "SEE LICENSE IN LICENSE");
+assert.equal(lock.version, pkg.version, "Lockfile version differs.");
+assert.equal(lock.packages[""].version, pkg.version, "Root lockfile package version differs.");
 assert.equal(manifest.kitVersion, pkg.version);
 assert.equal(profile.kitVersion, pkg.version);
 assert.equal(pkg.mediakitStatus, "public");
@@ -23,6 +26,16 @@ assert((await read("LICENSE")).startsWith("Paul Fleury Media Permission 1.0"), "
 assert.equal(manifest.sourceImageCount, 1);
 assert.equal(manifest.maximumPortraitDimension, 512);
 assert(!/agoraphobi|claustrophobi|medical|diagnos|health/i.test(JSON.stringify(profile)), "Do not put health fields in the professional data.");
+assert.equal(profile.contact.url, `${profile.links.website}/#connect`);
+assert(profile.contact.channels.length > 0, "The official contact directory must not be empty.");
+const channelUrls = profile.contact.channels.map(channel => channel.url);
+assert.equal(new Set(channelUrls).size, channelUrls.length, "Duplicate contact route.");
+for (const channel of profile.contact.channels) {
+  assert.equal(new URL(channel.url).protocol, "https:", "Contact routes must use HTTPS.");
+  for (const doc of ["README.md", "docs/MEDIA-GUIDE.md"])
+    assert((await read(doc)).includes(`(${channel.url})`), `${doc} omits ${channel.name}.`);
+}
+assert((await read(".github/ISSUE_TEMPLATE/config.yml")).includes(profile.contact.url), "Issue form contact directory differs.");
 
 const expectedPortraits = [];
 for (const size of [128, 256, 512]) for (const ext of ["png", "jpg", "webp"])
@@ -45,7 +58,16 @@ for (const asset of manifest.files) {
   totalBytes += data.length;
   if (asset.format === "ico") {
     assert.equal(data.readUInt16LE(2), 1);
-    assert.equal(data.readUInt16LE(4), 4);
+    assert.equal(data.readUInt16LE(4), 5);
+    for (let index = 0; index < 5; index++) {
+      const entry = 6 + index * 16;
+      const size = data[entry] || 256;
+      const length = data.readUInt32LE(entry + 8);
+      const offset = data.readUInt32LE(entry + 12);
+      assert.equal(size, [16, 32, 64, 128, 256][index]);
+      const png = await fs.readFile(path.join(root, `assets/brand/mediakit-icon-${size}.png`));
+      assert(data.subarray(offset, offset + length).equals(png), "ICO frame differs from its approved icon.");
+    }
     continue;
   }
   const meta = await sharp(data).metadata();
@@ -70,7 +92,7 @@ for (const group of ["portrait", "brand", "graphics"]) {
     assert(listed.has(`assets/${group}/${filename}`), `Unmanifested asset: ${filename}`);
   }
 }
-assert.equal(listed.size, 31, "Expected 16 portraits, 9 brand assets, and 6 graphics.");
+assert.equal(listed.size, 32, "Expected 16 portraits, 10 brand assets, and 6 graphics.");
 
 async function walk(folder) {
   const files = [];
@@ -87,15 +109,17 @@ let links = 0;
 const files = await walk(root);
 for (const file of files) {
   const rel = path.relative(root, file);
-  assert(!/(^|\/)(private|originals|\.env)(\/|$|\.)|avatar-linkedin|(?:\.pem|\.key|\.p12|\.pfx)$/i.test(rel), `Private file in public tree: ${rel}`);
+  assert(!/(^|\/)(private|originals|\.env)(\/|$|\.)|(?:\.pem|\.key|\.p12|\.pfx)$/i.test(rel), `Private file in public tree: ${rel}`);
+  if (/\.(?:png|jpe?g|webp|ico|svg|avif|gif|heic|tiff?|mp4|mov|webm)$/i.test(rel))
+    assert(listed.has(rel), `Media file outside the approved manifest: ${rel}`);
   if (!/\.(md|mjs|json|yml|txt)$/.test(file) && path.basename(file) !== "LICENSE") continue;
   const text = await fs.readFile(file, "utf8");
   assert(!/-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY-----|github_pat_[A-Za-z0-9_]{30,}|ghp_[A-Za-z0-9]{30,}|sk-or-v1-[a-f0-9]{32,}/.test(text), `Potential secret: ${rel}`);
-  assert(!/\/home\/user\/|\.perplexity\/attachments|custom[-]cred[:]/.test(text), `Private workspace reference: ${rel}`);
+  assert(!/\/(?:home|Users|tmp|private)\/|[A-Za-z]:\\Users\\|\/\.[\w.-]+\/(?:attachments|credentials|sessions)\/|[a-z][a-z0-9-]*-cred[:]/i.test(text), `Private workspace reference: ${rel}`);
   if (!file.endsWith(".md")) continue;
   const localLinks = [
     ...[...text.matchAll(/\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g)].map(m => m[1]),
-    ...[...text.matchAll(/(?:src|href)="([^"]+)"/g)].map(m => m[1]),
+    ...[...text.matchAll(/(?:src|href|srcset)="([^"]+)"/g)].map(m => m[1]),
   ];
   for (const link of localLinks) {
     if (/^[a-z]+:|^#|^\//i.test(link)) continue;

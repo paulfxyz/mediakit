@@ -7,7 +7,8 @@ body:
       value: |
         Thanks for helping keep the kit accurate. Do not include private pictures,
         medical information, personal correspondence, addresses, or other sensitive data.
-        For permissions and private matters, contact Paul on LinkedIn instead.
+        For permissions and private matters, use an official direct-contact route
+        from [Paul's website](https://paulfleury.com/#connect) instead.
   - type: dropdown
     id: category
     attributes:

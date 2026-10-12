@@ -4,7 +4,7 @@ The visual package is intentionally restrained: monochrome portraiture, high-con
 
 ## The visual idea
 
-The kit is presented like a small, maintained technical project because it is meant to be easy to navigate, reuse correctly, and keep current. Version labels, file formats, and a manifest make the package practical; they are not a claim that a personal identity is a software product.
+The kit is presented like a small, maintained technical project because it is meant to be easy to navigate, reuse correctly, and keep current. Version labels, file formats, and a manifest make it practical for both editors and maintainers.
 
 The portrait is the human anchor, while the typography and marks provide structure around it. The treatment is deliberately modest rather than cinematic, promotional, or dependent on a collection of personal photographs.
 
@@ -30,10 +30,10 @@ The project map is a reference illustration, not a live dashboard. Check the lin
 
 - **Dark tile:** [SVG](../assets/brand/mediakit-mark-dark.svg), suitable for a light page or a standalone identity tile.
 - **Light tile:** [SVG](../assets/brand/mediakit-mark-light.svg), suitable for a dark page.
-- **Transparent black mark:** [SVG](../assets/brand/mediakit-mark-black.svg).
-- **Transparent white mark:** [SVG](../assets/brand/mediakit-mark-white.svg).
-- **Raster icons:** [32 px](../assets/brand/mediakit-icon-32.png), [64 px](../assets/brand/mediakit-icon-64.png), [128 px](../assets/brand/mediakit-icon-128.png), and [256 px](../assets/brand/mediakit-icon-256.png).
-- **Application-style favicon:** [ICO](../assets/brand/favicon.ico).
+- **Transparent black mark:** [SVG](../assets/brand/mediakit-mark-black.svg), for a light background.
+- **Transparent white mark:** [SVG](../assets/brand/mediakit-mark-white.svg), for a dark background.
+- **Raster icons:** [16 px](../assets/brand/mediakit-icon-16.png), [32 px](../assets/brand/mediakit-icon-32.png), [64 px](../assets/brand/mediakit-icon-64.png), [128 px](../assets/brand/mediakit-icon-128.png), and [256 px](../assets/brand/mediakit-icon-256.png).
+- **Application-style favicon:** [ICO](../assets/brand/favicon.ico), containing all five icon sizes.
 
 ## Reuse
 
@@ -42,6 +42,8 @@ Keep sufficient clear space around the mark, preserve its proportions, and use t
 For a graphic, credit `Paul Fleury / mediakit` and link to the kit where practical. All marks and graphics are covered by the [limited media permission](../LICENSE), not by the MIT license for the build scripts.
 
 ## Voice and naming
+
+Use `Media Kit` in the repository and release title, `media kit` in ordinary prose, and `Mediakit` for the website's Connect label. The repository slug, short link, and prescribed graphic credit retain `mediakit`; use the exact credit in [LICENSE](../LICENSE).
 
 Use Paul Fleury's name plainly, and describe the relevant work rather than turning the entire portfolio into a job title. “Internet entrepreneur”, “founder”, “product builder”, and “consultant” are more useful starting points than unsupported superlatives.
 

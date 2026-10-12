@@ -71,7 +71,7 @@ for (const [name, background, foreground] of [
 }
 const darkSvg = await fs.readFile(path.join(brandDir, "mediakit-mark-dark.svg"));
 const iconBuffers = [];
-for (const size of [32, 64, 128, 256]) {
+for (const size of [16, 32, 64, 128, 256]) {
   const png = await sharp(darkSvg).resize(size, size).png().toBuffer();
   await fs.writeFile(path.join(brandDir, `mediakit-icon-${size}.png`), png);
   iconBuffers.push({ size, png });

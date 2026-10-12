@@ -1,6 +1,6 @@
 {
   "name": "@paulfxyz/mediakit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Official media kit for Paul Fleury: approved portrait, biographies, projects, brand assets, and editorial-use guidelines.",
   "private": true,
   "mediakitStatus": "public",
@@ -16,7 +16,7 @@
     "brand-assets",
     "editorial"
   ],
-  "homepage": "https://paulfleury.com",
+  "homepage": "https://paulf.xyz/media",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/paulfxyz/mediakit.git"
