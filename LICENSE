@@ -1,0 +1,134 @@
+Paul Fleury Media Permission 1.0
+Effective date: 12 October 2026
+
+Copyright (c) 2026 Paul Fleury, to the extent of rights held.
+All rights reserved except for the permissions below.
+
+1. SCOPE
+
+This permission applies to the portrait exports, PF media-kit marks, graphics,
+written documents, and biographical data in this repository ("Media Materials"),
+to the extent Paul Fleury owns or is authorised to license the relevant rights.
+It does not apply to third-party materials or separately licensed project code.
+
+The original functional code in scripts/ and .github/workflows/ is separately
+available under LICENSES/MIT.txt. That MIT license does not extend to Media
+Materials embedded in, read by, or produced by those scripts, including the
+personal copy and PF mark, even when the output is generated automatically.
+Third-party dependencies retain their own licenses.
+
+2. LIMITED MEDIA PERMISSION
+
+Subject to these terms, Paul Fleury grants a worldwide, royalty-free,
+non-exclusive, non-transferable permission to copy, display, and reproduce
+the Media Materials for:
+
+- editorial reporting, criticism, commentary, and biographical profiles
+  concerning Paul Fleury or his work;
+- factual author or contributor identification connected with such coverage;
+- an event's identification of Paul Fleury as a participant, only after he
+  has separately agreed to participate in that event.
+
+An editorial publication may charge readers or carry advertising. That does
+not, by itself, make its genuine editorial use ineligible.
+
+You may share the relevant files with your publisher, designer, or production
+provider solely to complete the permitted use on your behalf, provided they
+follow the same restrictions. They receive no independent reuse rights.
+
+3. CREDIT AND CONTEXT
+
+Credit the portrait as "Paul Fleury / supplied portrait". Credit a graphic as
+"Paul Fleury / mediakit". For online use, include a reasonably accessible link
+to https://github.com/paulfxyz/mediakit or https://paulfleury.com. For print,
+include paulfleury.com where practical. Do not imply that this credit identifies
+the photographer or an independent certifier.
+
+Keep quotations faithful and identify personal statements as Paul Fleury's
+own account. Biographies may be excerpted, paraphrased, or translated for the
+permitted purposes without materially changing their meaning or inventing
+credentials, medical details, associations, or endorsements.
+
+The permission does not require favourable coverage, approval of an article,
+or prior review of independent journalism. Criticism is permitted.
+
+4. PORTRAIT AND GRAPHIC MODIFICATIONS
+
+You may convert file formats, compress files, proportionally reduce their size,
+and make a conventional crop that preserves the subject and context. Supplied
+circular masks and the 4:5 crop are permitted versions of the same photograph.
+
+No portrait export may be enlarged beyond its supplied pixel dimensions.
+The maximum supplied portrait dimension is 512 pixels. Do not use AI upscaling,
+face enhancement, facial reconstruction, face or body alteration, synthetic
+animation, or generative extensions under this permission.
+
+Do not recolour or alter the portrait's appearance. Do not materially change
+the PF marks, or use a graphic in a way that misrepresents a project, its
+availability, or its relationship to Paul Fleury.
+
+5. USES REQUIRING SEPARATE WRITTEN PERMISSION
+
+This permission does not authorise:
+
+- advertising, paid promotion, commercial endorsements, or suggestions of
+  sponsorship or affiliation;
+- merchandise, stock-photo distribution, resale of the Media Materials as
+  standalone assets, or licensing them onward for unrelated uses;
+- impersonation, fake accounts, deepfakes, synthetic likenesses or voices,
+  or invented recordings of Paul Fleury;
+- use of Media Materials in biometric identification datasets, face-recognition
+  systems, or model training or fine-tuning datasets;
+- reuse of another photograph, avatar, video, or recording merely because
+  it depicts or is associated with Paul Fleury online;
+- publication of the unpublished original or an unapproved higher-resolution
+  derivative.
+
+These restrictions state what this permission grants. They do not assert
+control over an act for which no permission is required under applicable law.
+
+6. IDENTITY, THIRD-PARTY RIGHTS, AND EXCEPTIONS
+
+No trademark, endorsement, agency, or general personality-rights license is
+granted. To the extent needed and held by Paul Fleury, consent to the display
+of his likeness is limited to the specific permitted uses above.
+
+Product and company names remain subject to the rights of their respective
+owners. This kit does not license third-party logos or code.
+
+Nothing here limits fair use, fair dealing, quotation rights, or other
+applicable statutory exceptions and limitations. Nothing here restricts
+lawful independent reporting or criticism. No promise of universal legal
+enforceability, technical protection against copying, or confidentiality is made.
+
+Rights already granted to GitHub and its users under GitHub's Terms of Service,
+including the service's public-repository viewing and forking functionality,
+are not withdrawn by this document.
+
+7. DURATION, BREACH, AND FUTURE CHANGES
+
+This permission ends for a user who breaches its conditions. Stop the
+non-compliant use and contact Paul Fleury to discuss correction or permission.
+Correction alone does not reinstate the permission; written reinstatement
+or a separate permission is required.
+
+Paul Fleury may update the kit or withdraw permission for new uses by posting
+a dated notice in this repository. A later change does not retroactively
+invalidate a previously compliant publication or require the removal of its
+unchanged editorial archive. A new campaign, adaptation, or reuse should
+consult the current terms. Applicable statutory rights and GitHub platform
+rights remain unaffected.
+
+8. NO WARRANTY
+
+The Media Materials are supplied as available, without warranties to the
+extent allowed by law. Check current facts and project status before
+publication. This document cannot grant rights that Paul Fleury does not hold.
+
+9. CONTACT
+
+For uses outside this permission, contact:
+https://www.linkedin.com/in/paulfxyz/
+
+Canonical kit:
+https://github.com/paulfxyz/mediakit

@@ -1,0 +1,41 @@
+{
+  "name": "@paulfxyz/mediakit",
+  "version": "1.0.0",
+  "description": "Official media kit for Paul Fleury: approved portrait, biographies, projects, brand assets, and editorial-use guidelines.",
+  "private": true,
+  "mediakitStatus": "public",
+  "type": "module",
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Paul Fleury",
+  "keywords": [
+    "media-kit",
+    "press-kit",
+    "paul-fleury",
+    "biography",
+    "portrait",
+    "brand-assets",
+    "editorial"
+  ],
+  "homepage": "https://paulfleury.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulfxyz/mediakit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paulfxyz/mediakit/issues"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/validate.mjs",
+    "pack": "node scripts/pack.mjs"
+  },
+  "devDependencies": {
+    "@fontsource/ibm-plex-mono": "5.3.0",
+    "@fontsource/manrope": "5.3.0",
+    "playwright": "1.64.0",
+    "sharp": "0.35.5"
+  }
+}

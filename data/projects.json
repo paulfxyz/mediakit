@@ -1,0 +1,107 @@
+{
+  "asOf": "2026-10-12",
+  "scope": "Curated portfolio, not an inventory of active businesses or a live product-status feed.",
+  "projects": [
+    {
+      "name": "Openline",
+      "category": "main-business",
+      "description": "eSIM connectivity.",
+      "website": "https://openline.com",
+      "source": "https://www.linkedin.com/in/paulfxyz/"
+    },
+    {
+      "name": "Megastack",
+      "category": "services-advisory",
+      "description": "Cybersecurity and self-hosted infrastructure.",
+      "website": "https://megastack.sh",
+      "source": "https://www.linkedin.com/in/paulfxyz/"
+    },
+    {
+      "name": "Calliope Agency",
+      "category": "services-advisory",
+      "description": "Web, AI, and practical workflow consultancy.",
+      "website": "https://calliope.agency",
+      "source": "https://www.linkedin.com/in/paulfxyz/"
+    },
+    {
+      "name": "Asymptote Ventures",
+      "category": "services-advisory",
+      "description": "Venture-building and early-stage advisory.",
+      "website": "https://asymptote.ventures",
+      "source": "https://www.linkedin.com/in/paulfxyz/"
+    },
+    {
+      "name": "Enki",
+      "category": "public-good",
+      "description": "Decentralised, local-first AI public-good initiative.",
+      "website": "https://enki.ngo",
+      "repository": "https://github.com/paulfxyz/enki",
+      "source": "https://enki.ngo"
+    },
+    {
+      "name": "Junk",
+      "category": "weekathon",
+      "description": "Local-first floating scratchpad.",
+      "website": "https://thejunk.app",
+      "repository": "https://github.com/paulfxyz/junk",
+      "source": "https://github.com/paulfxyz/junk"
+    },
+    {
+      "name": "All Seeing Eye",
+      "category": "weekathon",
+      "description": "Self-hosted uptime, DNS, and SSL monitor.",
+      "website": "https://ase.so",
+      "repository": "https://github.com/paulfxyz/ase",
+      "source": "https://github.com/paulfxyz/ase"
+    },
+    {
+      "name": "Mang",
+      "category": "weekathon",
+      "description": "Natural language to terminal commands.",
+      "website": "https://mang.sh",
+      "repository": "https://github.com/paulfxyz/mang",
+      "source": "https://github.com/paulfxyz/mang"
+    },
+    {
+      "name": "Hollr",
+      "category": "weekathon",
+      "description": "Encrypted, timed messaging.",
+      "website": "https://hollr.to",
+      "repository": "https://github.com/paulfxyz/hollr",
+      "source": "https://github.com/paulfxyz/hollr"
+    },
+    {
+      "name": "Clippy",
+      "category": "weekathon",
+      "description": "AI-assisted contract analysis.",
+      "website": "https://clippy.legal",
+      "repository": "https://github.com/paulfxyz/clippy",
+      "source": "https://github.com/paulfxyz/clippy"
+    },
+    {
+      "name": "Mercury",
+      "category": "weekathon",
+      "description": "Self-hosted multi-model research and debate.",
+      "website": "https://mercury.sh",
+      "repository": "https://github.com/paulfxyz/mercury",
+      "source": "https://github.com/paulfxyz/mercury"
+    },
+    {
+      "name": "Cup of News",
+      "category": "weekathon",
+      "description": "AI-assisted news digest; separate commercial product and frozen MIT core.",
+      "website": "https://cupof.news",
+      "reader": "https://read.cupof.news",
+      "repository": "https://github.com/paulfxyz/cup-of-news",
+      "source": "https://github.com/paulfxyz/cup-of-news"
+    },
+    {
+      "name": "xnftables",
+      "category": "infrastructure",
+      "description": "Deny-by-default nftables policies for a WireGuard mesh.",
+      "website": "https://xnftables.net",
+      "repository": "https://github.com/paulfxyz/xnftables",
+      "source": "https://github.com/paulfxyz/xnftables"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+name: Asset problem or factual correction
+description: Report a broken file, broken link, or supported factual correction.
+title: "[Correction]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep the kit accurate. Do not include private pictures,
+        medical information, personal correspondence, addresses, or other sensitive data.
+        For permissions and private matters, contact Paul on LinkedIn instead.
+  - type: dropdown
+    id: category
+    attributes:
+      label: What needs attention?
+      options:
+        - Broken asset or download
+        - Broken link
+        - Factual correction
+        - Build or validation problem
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Affected file or public URL
+      placeholder: docs/PROJECTS.md
+    validations:
+      required: true
+  - type: textarea
+    id: explanation
+    attributes:
+      label: Problem and proposed correction
+      description: For factual corrections, include a public first-party reference.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: This report contains no private or sensitive personal material.
+          required: true

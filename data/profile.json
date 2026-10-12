@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.0",
+  "kitVersion": "1.0.0",
+  "asOf": "2026-10-12",
+  "publicationStatus": "public",
+  "name": "Paul Fleury",
+  "handle": "paulfxyz",
+  "description": "French internet entrepreneur based in Lisbon. Founder and CEO of Openline.",
+  "location": {
+    "city": "Lisbon",
+    "country": "Portugal"
+  },
+  "mainBusiness": {
+    "name": "Openline",
+    "role": "Founder and CEO",
+    "url": "https://openline.com"
+  },
+  "links": {
+    "website": "https://paulfleury.com",
+    "linkedin": "https://www.linkedin.com/in/paulfxyz/",
+    "github": "https://github.com/paulfxyz",
+    "weekathon": "https://ph.paulfleury.com",
+    "mediakit": "https://github.com/paulfxyz/mediakit"
+  },
+  "contact": {
+    "method": "LinkedIn",
+    "url": "https://www.linkedin.com/in/paulfxyz/"
+  },
+  "portrait": {
+    "imageCount": 1,
+    "reuseRights": "owner-confirmed",
+    "maximumDimension": 512,
+    "canonicalFile": "assets/portrait/paul-fleury-square-512.png",
+    "licenseFile": "LICENSE",
+    "policyFile": "docs/PORTRAIT.md"
+  },
+  "factSources": [
+    "https://www.linkedin.com/in/paulfxyz/",
+    "https://paulfleury.com",
+    "https://ph.paulfleury.com"
+  ],
+  "notes": "This is a selective professional reference, not a complete CV or a verification of commercial metrics."
+}
